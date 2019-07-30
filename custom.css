@@ -1,0 +1,77 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.8;
+}
+
+#home-section {
+    background-image: url('img/home.jpg');
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay {
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    color: #fff;
+    }
+    
+    .home-inner {
+        padding-top: 150px;
+    }
+    
+    .card-form {
+        opacity: 0.8;
+    }
+
+i.fa.fa-check.home-icons::before {
+        color: #008ed6;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+
+#explore-head-section {
+    background-color: #333;
+    color: #fff;
+}
+
+#create-head-section,
+#share-head-section {
+    color: #fff;
+}
+
+i.fa.fa-check::before {
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#create-section {
+    background-color: #333;
+    color: #fff;
+}
+
+#create-section.fa{
+        color: #008ed6;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+
+p.copyright {
+    color: white;
+}
